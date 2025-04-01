@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .calculator {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .display {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    font-size: 2.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .btn {
+    font-size: 1.6em;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #f39c12;
+    transform: scale(1.1);
+  }
+  
+  .btn:active {
+    background-color: #e67e22;
+    transform: scale(0.9);
+  }
+  
+  /* Color for the number buttons */
+  .btn:nth-child(odd) {
+    background-color: #3498db;
+  }
+  
+  .btn:nth-child(even) {
+    background-color: #1abc9c;
+  }
+  
+  /* Color for operators and special buttons */
+  .btn:nth-child(4), .btn:nth-child(8), .btn:nth-child(12) {
+    background-color: #e74c3c;
+  }
+  
+  .btn:nth-child(16) {
+    background-color: #9b59b6;
+  }
+  
+  .btn:nth-child(1) {
+    background-color: #e74c3c;
+  }
+  
+  .btn:nth-child(14) {
+    background-color: #f39c12;
+  }
+  
+  /* Specific button for equals */
+  .btn:nth-child(15) {
+    background-color: #2ecc71;
+  }
+  
+  /* Style for C and Equal buttons */
+  .btn:nth-child(1) {
+    background-color: #e74c3c;
+  }
+  
+  .btn:nth-child(15) {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  /* Making the background gradient for overall look */
+  .calculator {
+    background: linear-gradient(135deg, #ff6f61, #dcedc8);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
