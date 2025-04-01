@@ -2,7 +2,7 @@
 
 A simple and user-friendly calculator application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-**Features**
+**#Features**<br><br>
 Addition, subtraction, multiplication, and division
 
 Clear and reset functionality
@@ -11,5 +11,5 @@ Responsive UI for different screen sizes
 
 Keyboard support for quick input
 
-**Technologies Used**
+**#Technologies Used**<br><br>
 HTML, CSS, JavaScript (for web-based calculator
